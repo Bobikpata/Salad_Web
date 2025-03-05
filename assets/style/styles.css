@@ -1,0 +1,794 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --grey: #f2f2f2;
+    --orange: #ffc002;
+    --light_black: #111f;
+}
+
+body {
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 25px 0;
+    list-style: none;
+    font-size: 20px;
+    background: var(--secondary-color);
+}
+
+.intro-container {
+    background: var(--grey);
+    position: relative;
+    height: 700px;
+}
+
+.intro-container img {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    z-index: 1;
+}
+
+.orange-rectangle {
+    background: var(--orange);
+    width:30%;
+    height: 400px;
+    position: absolute;
+    left:40%;
+    top: 150px;
+    padding: 0 25px 0 100px;
+    color: var(--secondary-color);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+.orange-rectangle h1{
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 50px;
+}
+
+.orange-rectangle h2{
+    padding-left: 100px;
+}
+.orange-rectangle p{
+    padding-left: 30px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.our-menu{
+    width: 75%;
+    margin: 50px auto 50px auto;
+}
+
+.our-menu span{
+    font-size: 35px;
+    font-family: "Flareserif 821 AT";
+    text-transform: uppercase;
+}
+
+.our-menu h2{
+    font-size: 50px;
+}
+
+.menu-items{
+    width: 95%;
+    margin: 50px 100px 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
+
+.menu-items h3{
+    font-size: 25px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.menu-items p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.menu-item{
+    width: 85%;
+    margin: 0 auto 0 0;
+}
+
+.salad-menu{
+    width: 80%;
+    margin: 150px auto 0 auto;
+}
+
+
+.salads{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px 60px;
+    width: 95%;
+    margin: 0 0 0 0;
+}
+
+.salad h3{
+    font-size: 25px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.salad{
+    display: flex;
+}
+
+.salad h4{
+    font-size: 35px;
+    margin: 0 50px 0 0;
+}
+
+.salad p{
+    margin-top: 35px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.salad-text{
+    margin: 0 0 0 50px;
+}
+
+.salad img{
+    width: 120%;
+    height: auto;
+    z-index: 1;
+}
+
+.delicatesse{
+    position: relative;
+    min-height: 800px;
+}
+
+.delicatesse-img{
+    margin-top: 100px;
+    background: url(../images/Dessert.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position-y: -750px;
+}
+
+
+.Items{
+    top: 30%;
+    left: 26%;
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 20px;
+}
+
+.Item{
+    width: 500px;
+    background-color: var(--secondary-color);
+    padding: 0 0 0 50px;
+}
+
+.Item h3{
+    font-size: 26px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.Item h4{
+    font-size: 20px;
+    margin: 0 50px 0 0;
+}
+
+.Item p{
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.Snacks-section{
+    position: relative;
+    height: 800px;
+}
+
+.Snacks{
+    position: absolute;
+    margin: 0 200px 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Snacks-menu{
+    margin: 0 auto auto 350px;
+}
+
+.Snacks-name h3 {
+    font-size: 60px;
+}
+
+.Snacks-text{
+    margin-top: 80px;
+}
+
+.Snacks-text h4{
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.Snacks-img{
+    max-width: 400px;
+    max-height: 500px;
+}
+
+.orange-line{
+    background-color: var(--orange);
+    height: 15px;
+    width: 70%;
+}
+
+.organic-section{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/NomNom.jpg);
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+}
+
+.organic-stuff{
+    position: absolute;
+    top: 25%;
+    width: 33%;
+    left: 33%;
+}
+
+.organic-stuff h3{
+    font-size: 68px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--light_black);
+}
+
+.organic-stuff p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.profile-section{
+    position: relative;
+    height: 500px;
+}
+
+.profile-stuff{
+    position: absolute;
+    left: 22%;
+    width: 55%;
+    margin-top: 15px;
+}
+
+.profile-img img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 18%;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: var(--orange);
+    border-width: 20px;
+}
+
+.profile-stuff p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.profile-stuff h3{
+    font-family: "Bookman Old Style", sans-serif;
+    text-align: center;
+    font-weight: 10;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.Sub-section{
+    position: relative;
+    height: 700px;
+    background: var(--grey);
+}
+
+.Sub-stuff{
+    position: absolute;
+    display: block;
+    border-radius: 50px;
+    top: 15%;
+    width: 35%;
+    left: 33%;
+    background: var(--secondary-color);
+
+}
+
+.Sub-stuff h3{
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Sub-stuff p{
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.Sub-p-button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--orange);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.Sub-stuff input{
+    border-color: var(--orange);
+    border-style: solid;
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+}
+
+.Sub-stuff input::placeholder{
+    padding-left: 15px;
+}
+
+
+.Sub-stuff-button{
+    display: block;
+    margin-top: 20px;
+    background-color: var(--orange);
+    border-radius: 50px;
+    border: none;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+footer {
+    padding-top: 50px;
+    background-color: #333333;
+    height: 200px;
+}
+.footer {
+    width:25%;
+    margin: auto;
+}
+
+footer p {
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 10;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+.nav-links {
+    display: block;
+    justify-content: center;
+    padding: 0px 0;
+    list-style: none;
+    font-size: 20px;
+    background: var(--secondary-color);
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.intro-container {
+    background: var(--grey);
+    position: relative;
+    height: 1050px;
+}
+
+.intro-container img {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+}
+
+.orange-rectangle {
+    background: var(--orange);
+    width:350px;
+    height: 600px;
+    position: absolute;
+    left: 100px;
+    top: 380px;
+    padding: 0 25px 0 70px;
+    color: var(--secondary-color);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+.orange-rectangle h1{
+    padding-top: 100px;
+    padding-left: 0px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.orange-rectangle h2{
+    padding-left: 0px;
+    margin-right: 30px;
+    text-align: center;
+}
+.orange-rectangle p{
+    padding-left: 0px;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.our-menu{
+    width: 75%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+
+.our-menu span{
+    font-size: 35px;
+    font-family: "Flareserif 821 AT";
+    text-transform: uppercase;
+}
+
+.our-menu h2{
+    font-size: 50px;
+}
+
+.menu-items{
+    width: 95%;
+    margin: 50px 100px 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
+
+.menu-items h3{
+    font-size: 25px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.menu-items p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.menu-item{
+    width: 85%;
+    margin: 0 auto 0 0;
+}
+
+.salad-menu{
+    width: 100%;
+    margin: 0px auto 0 auto;
+}
+
+
+.salads{
+    display: block;
+    width: 95%;
+    margin: 0 0 0 0;
+}
+
+.salad h3{
+    font-size: 25px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.salad{
+    display: flex;
+}
+
+.salad h4{
+    font-size: 35px;
+    margin: 0 50px 0 0;
+}
+
+.salad p{
+    margin-top: 35px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.salad-text{
+    margin: 0 0 0 50px;
+}
+
+.salad img{
+    width: 120%;
+    height: auto;
+    z-index: 1;
+}
+
+.delicatesse{
+    position: relative;
+    min-height: 800px;
+}
+
+.delicatesse-img{
+    margin-top: 100px;
+    background: url(../images/Dessert.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position-y: 0px;
+    z-index: -1;
+}
+
+.Items{
+    top: 55px;
+    left: 30px;
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 20px;
+}
+
+.Item{
+    text-align: center;
+    width: 150px;
+    left: 200px;
+    background-color: var(--secondary-color);
+    padding: 0 50px 0 50px;
+}
+
+.Item h3{
+    font-size: 26px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.Item h4{
+    font-size: 20px;
+    margin: 0;
+}
+
+.Item p{
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.Snacks-section{
+    position: relative;
+    height: 1000px;
+}
+
+.Snacks{
+    position: absolute;
+    margin: 0 20px 0 0;
+    display: block;
+}
+
+.Snacks-menu{
+    margin: 0 auto auto 20px;
+}
+
+.Snacks-name h3 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.Snacks-text{
+    margin-top: 80px;
+}
+
+.Snacks-text h4{
+    text-align: center;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.Snacks-img img{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.orange-line{
+    background-color: var(--orange);
+    height: 15px;
+    width: 100%;
+}
+
+.organic-section{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background-image: url(../images/NomNom.jpg);
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.organic-stuff{
+    position: absolute;
+    top: 100px;
+    width: 33%;
+    left: 33%;
+}
+
+.organic-stuff h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--light_black);
+}
+
+.organic-stuff p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.profile-section{
+    position: relative;
+    height: 550px;
+}
+
+.profile-stuff{
+    position: absolute;
+    left: 150px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.profile-img img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 45%;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: var(--orange);
+    border-width: 15px;
+}
+
+.profile-stuff p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.profile-stuff h3{
+    font-family: "Bookman Old Style", sans-serif;
+    text-align: center;
+    font-weight: 10;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.Sub-section{
+    position: relative;
+    height: 500px;
+    background: var(--grey);
+}
+
+.Sub-stuff{
+    position: absolute;
+    display: block;
+    border-radius: 50px;
+    top: 50px;
+    width: 400px;
+    left: 100px;
+    background: var(--secondary-color);
+
+}
+
+.Sub-stuff h3{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Sub-stuff p{
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Sub-p-button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--orange);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.Sub-stuff input{
+    border-color: var(--orange);
+    border-style: solid;
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+}
+
+.Sub-stuff input::placeholder{
+    padding-left: 15px;
+}
+
+
+.Sub-stuff-button{
+    display: block;
+    margin-top: 20px;
+    background-color: var(--orange);
+    border-radius: 50px;
+    border: none;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333333;
+}
+.footer {
+    margin-top: auto;
+}
+
+footer p {
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 10;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+}
+}
